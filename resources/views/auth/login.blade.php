@@ -3,12 +3,14 @@
 @section('content')
 
 <style>
+
+    
     .login-form {
         background-color: #ffffff;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-        padding: 40px;
         border-radius: 10px;
         max-width: 400px;
+        padding: auto;
         margin: auto;
     }
 
@@ -27,7 +29,6 @@
         border: 1px solid #eaeaea;
         color: #333333;
         border-radius: 5px;
-        padding: 15px;
         font-size: 16px;
         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
@@ -61,25 +62,8 @@
 
     .forgot-password {
         text-align: center;
-        margin-top: 15px;
     }
 
-    .social-icons {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .social-icons a {
-        display: inline-block;
-        margin: 0 10px;
-        font-size: 24px;
-        color: #c79850; /* Ubah warna ikon sosial media */
-        transition: color 0.3s ease;
-    }
-
-    .social-icons a:hover {
-        color: #b5833d; /* Ubah warna ikon sosial media saat hover */
-    }
 </style>
 
 <div class="container">

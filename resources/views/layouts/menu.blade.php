@@ -25,10 +25,16 @@
                 @endauth
             </ul>
             <div class="col-lg-2 mb-5 mb-lg-1 d-flex justify-content-end">
-                <a class="btn btn-outline btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f text-black" onmouseover="this.style.color='#c79850'"></i></a>
-                <a class="btn btn-outline btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram text-black" onmouseover="this.style.color='#c79850'"></i></a>
-                <a class="btn btn-outline btn-social mx-1" href="#!"><i class="fab fa-fw fa-tiktok text-black" onmouseover="this.style.color='#c79850'"></i></a>
+                <a class="btn btn-outline btn-social mx-1" href="{{ route('checkout') }}">
+                    <i class="fas fa-shopping-cart text-black cart-icon"></i>
+                </a>
             </div>
         </div>
     </div>
 </nav>
+
+<style>
+    .cart-icon:hover {
+        color: #c79850 !important;
+    }
+</style>

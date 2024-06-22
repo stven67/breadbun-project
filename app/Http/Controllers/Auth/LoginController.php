@@ -14,9 +14,17 @@ class LoginController extends Controller
     /**
      * Where to redirect users after login.
      *
-     * @var string
+     * @return string
      */
-    protected $redirectTo = '/Home';
+    protected function redirectTo()
+    {
+        // Check the role of the authenticated user
+        if (Auth::user()->role == 'Admin') {
+            return '/admindashboard';
+        } else {
+            return '/home';
+        }
+    }
 
     /**
      * Create a new controller instance.
