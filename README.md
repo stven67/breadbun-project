@@ -3,7 +3,7 @@
 ## Anggota Kelompok
 - **Stven67** / Steven Immanuel (535220141)
 - **filbertwu** / Filbert Wu (535220120)
-- **MOMOTRONIC** / Vincent Laurent (535220168)
+- **MOMOTRONICS** / Vincent Laurent (535220168)
 
 ## Latar Belakang
 **BreadBun** adalah website bakery shop yang menjual beraneka macam jenis roti. Website ini dirancang untuk membantu dalam aplikasi pemesanan online yang lebih praktis dan efisien.
