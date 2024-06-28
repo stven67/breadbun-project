@@ -8,6 +8,32 @@
 ## Latar Belakang
 **BreadBun** adalah website bakery shop yang menjual beraneka macam jenis roti. Website ini dirancang untuk membantu dalam aplikasi pemesanan online yang lebih praktis dan efisien.
 
+##Instalasi
+
+#Gunakan perintah berikut untuk navigasi ke direktori proyek
+cd breadbun
+
+#Jalankan perintah berikut untuk menginstal semua ketergantungan PHP menggunakan Composer
+composer install
+
+#Mengatur Kredensial Database di File .env
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=breadbun
+DB_USERNAME=breadbun_user
+DB_PASSWORD=breadbun_password
+
+#Jalankan Migrasi Database
+php artisan migrate
+
+#Jalankan Server Pengembangan
+php artisan serve
+
+#Akses web
+Buka http://localhost:8000 di browser web
+
+
 ## Fitur
 - **Register:** Fitur pendaftaran untuk pengguna baru.
 - **Login dan Logout:** Fitur untuk masuk dan keluar dari akun.
