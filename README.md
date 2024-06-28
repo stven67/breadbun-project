@@ -8,7 +8,7 @@
 ## Latar Belakang
 **BreadBun** adalah website bakery shop yang menjual beraneka macam jenis roti. Website ini dirancang untuk membantu dalam aplikasi pemesanan online yang lebih praktis dan efisien.
 
-##Instalasi
+#Instalasi
 
 #Gunakan perintah berikut untuk navigasi ke direktori proyek
 cd breadbun
