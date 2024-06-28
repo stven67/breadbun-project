@@ -10,13 +10,13 @@
 
 ## Instalasi
 
-*Gunakan perintah berikut untuk navigasi ke direktori proyek*
+Gunakan perintah berikut untuk navigasi ke direktori proyek
 `cd breadbun`
 
-*Jalankan perintah berikut untuk menginstal semua ketergantungan PHP menggunakan Composer*
+Jalankan perintah berikut untuk menginstal semua ketergantungan PHP menggunakan Composer
 `composer install`
 
-*Mengatur Kredensial Database di File .env*
+Mengatur Kredensial Database di File .env
 `DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
@@ -24,13 +24,13 @@ DB_DATABASE=breadbun
 DB_USERNAME=breadbun_user
 DB_PASSWORD=breadbun_password`
 
-*Jalankan Migrasi Database*
+Jalankan Migrasi Database
 `php artisan migrate`
 
-*Jalankan Server Pengembangan*
+Jalankan Server Pengembangan
 `php artisan serve`
 
-*Akses web*
+Akses web
 Buka http://localhost:8000 di browser web
 
 
